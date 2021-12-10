@@ -7,7 +7,7 @@ product1.ProductName = "Masa";
 product1.UnitPrice = 500;
 product1.UnitsInStock = 3;
 
-Product product2 = new Product { Id = 2, CategoryId = 5, UnitssInStock = 5, ProductName = "kalem", UnitPrice = 35 };
+Product product2 = new Product { Id = 2, CategoryId = 5, UnitsInStock = 5, ProductName = "kalem", UnitPrice = 35 };
 
 
 // PascalCase  //camelCase
@@ -17,7 +17,7 @@ productManager.Add(product1);
 Console.WriteLine(product1);
 
 
-//intidouble,bool... değer tip
+//int,double,bool... değer tip
 //diziler,classes,abstract class, interface... referans tip
 // ref out
 
